@@ -7,15 +7,5 @@ import { Person } from './person';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public person: Person = {
-    name: 'John Doe',
-    age: 20
-  };
 
-  public reassign(): void {
-    this.person = {
-      name: this.person.name,
-      age: this.person.age
-    };
-  }
 }
